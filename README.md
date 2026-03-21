@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/sofianeabbar/depick/actions/workflows/ci.yml/badge.svg)](https://github.com/sofianeabbar/depick/actions/workflows/ci.yml)
 [![crates.io](https://img.shields.io/crates/v/depick.svg)](https://crates.io/crates/depick)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 
 ```
 ╔ depick ── selective dependency updates ════════════════════════════════════════╗
@@ -180,4 +180,18 @@ The codebase follows a strict three-layer architecture — domain / infra / ui �
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+## License
+
+This project is dual-licensed under **MIT** or **Apache-2.0**. Users may choose either license when using or modifying depick.
+
+### MIT License
+The `LICENSE-MIT` file contains the full MIT License text. This license is simple and permissive — suitable for most uses.
+
+### Apache-2.0 License
+The `LICENSE-APACHE` file contains the full Apache-2.0 License text. This license includes explicit patent grants and is appropriate for projects with patent concerns.
+
+Both licenses are provided for your convenience. depick itself may be distributed under either license, and you may choose the one that best fits your needs.
+
+---
+
+See [`LICENSE-MIT`](LICENSE-MIT) or [`LICENSE-APACHE`](LICENSE-APACHE) for the full license texts.
