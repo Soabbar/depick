@@ -1,0 +1,22 @@
+# Rust
+/target
+Cargo.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.zed/
+
+# Environment
+.env
+.env.local
+
+# depick runtime
+cache/

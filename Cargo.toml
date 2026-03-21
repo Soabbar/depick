@@ -1,0 +1,45 @@
+[package]
+name = "depick"
+version = "0.1.0"
+edition = "2021"
+description = "Selective dependency updates with instant release context — supports npm and bun"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/soabbar/depick"
+homepage = "https://github.com/soabbar/depick"
+keywords = ["cli", "dependencies", "npm", "bun", "tui"]
+categories = ["command-line-utilities", "development-tools"]
+
+
+[[bin]]
+name = "depick"
+path = "src/main.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# TUI
+ratatui = "0.30"
+crossterm = "0.29"
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# HTTP client
+reqwest = { version = "0.13", features = ["json"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Error handling
+anyhow = "1"
+thiserror = "1"
+
+# CLI args
+clap = { version = "4", features = ["derive"] }
+
+# Utilities
+semver = "1"
+dirs = "5"
+the-other-tui-markdown = "0.1.0"
+futures = "0.3.32"
